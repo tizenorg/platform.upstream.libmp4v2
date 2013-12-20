@@ -24,7 +24,6 @@ Headers, static libraries, and documentation for libmp4v2
 %configure
 
 make %{?jobs:-j%jobs}
-
 %install
 rm -rf %{buildroot}
 %make_install
